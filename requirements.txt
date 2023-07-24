@@ -1,0 +1,2 @@
+nonebot2>=2.0.0
+aiosmtplib>=2.0.0

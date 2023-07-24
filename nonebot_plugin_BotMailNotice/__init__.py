@@ -15,7 +15,7 @@ class MailUser(BaseModel):
     """用户邮箱"""
     password: str
     """用户密码"""
-    host: str
+    hostname: str
     """SMTP地址"""
     port: int = 587
     """SMTP发送邮件端口"""
