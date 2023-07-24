@@ -73,7 +73,7 @@ _✨ bot断连时的Mail通知插件 ✨_
 <details>
 <summary>使用第二种方式安装看此方法</summary>
 
-- 在`pyproject.toml`里的`[tool.nonebot]`中添加`plugins = ["TeenStudy"]`
+- 在`pyproject.toml`里的`[tool.nonebot]`中添加`plugins = ["nonebot_plugin_BotMailNotice"]`
 
 </details>
 
@@ -82,12 +82,12 @@ _✨ bot断连时的Mail通知插件 ✨_
 ##  配置
 运行插件前，需要在 nonebot2 项目的`.env.prod`文件中添加下表中配置项
 
-| 配置项 | 必填 | 值类型 | 默认值 | 说明 |
-|:------:|:----:|:---:|:---:|:--:|
-| username | 是 | str | ""  | 邮箱账号 |
-| password | 是 | str | ""  | 邮箱密码或授权码 |
-| hostname | 是 | str | ""  | 邮箱服务器地址 |
-| port | 是 | int | 465  | 邮箱端口号，ssl模式时为465 |
+|  配置项  | 必填  | 值类型 | 默认值 |            说明            |
+| :------: | :---: | :----: | :----: | :------------------------: |
+| username |  是   |  str   |   ""   |          邮箱账号          |
+| password |  是   |  str   |   ""   |      邮箱密码或授权码      |
+| hostname |  是   |  str   |   ""   |       邮箱服务器地址       |
+|   port   |  是   |  int   |  465   | 邮箱端口号，ssl模式时为465 |
 
 ## 示例配置
   
