@@ -6,9 +6,6 @@ authors = ["ZM25XC <xingling25@qq.com>"]
 license="MIT"
 readme="README.md"
 homepage="https://github.com/ZM25XC/BotMailNotice"
-packages = [
-  { include = "nonebot-plugin-BotMailNotice" },
-]
 [tool.poetry.dependencies]
 python = "^3.8"
 nonebot2="^2.0.0"
