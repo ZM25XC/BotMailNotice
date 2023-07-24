@@ -1,11 +1,14 @@
 [tool.poetry]
 name = "nonebot-plugin-BotMailNotice"
-version = "0.0.2"
+version = "0.0.3"
 description = "基于nonebot2bot断连时的Mail通知插件"
 authors = ["ZM25XC <xingling25@qq.com>"]
 license="MIT"
 readme="README.md"
 homepage="https://github.com/ZM25XC/BotMailNotice"
+packages = [
+    { include = "nonebot_plugin_BotMailNotice"}
+]
 [tool.poetry.dependencies]
 python = "^3.8"
 nonebot2="^2.0.0"

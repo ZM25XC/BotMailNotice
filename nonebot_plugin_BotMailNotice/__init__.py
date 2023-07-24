@@ -29,12 +29,12 @@ class Config(BaseModel):
 
 
 __plugin_meta__ = PluginMetadata(
-    name="Bot上下线通知",
+    name="Bot上下线邮件通知",
     description="Bot上下线发送邮件通知的插件",
     usage="",
     config=Config,
     type="application",
-    homepage="https://github.com/ZM25XC/nonebot_plugin_BotMailNotice",
+    homepage="https://github.com/ZM25XC/BotMailNotice",
     supported_adapters=None,
 )
 Driver = get_driver()
